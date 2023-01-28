@@ -1,0 +1,85 @@
+.section_contacto{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+    form { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: solid 3px black;
+    margin: 50px;
+    padding: 10px;
+    width: 20%;
+
+        input, textarea {
+        width: 100%;
+        margin: 5px;
+        }
+
+        @media (max-width:1200px){
+            width: 500px;
+            
+        }
+    } 
+
+    
+
+        .div_img {
+            img{
+                width: 200px;
+                height: 200px;
+            }
+        }
+
+
+        @media (max-width:800px){
+            display: flex;
+            flex-direction: column;
+
+            form{
+                width: 400px;
+            }
+
+            iframe {
+                width: 400px;
+            }
+
+            .div_img {
+                margin: 20px;
+                
+                
+            }
+            
+        }
+
+        
+        @media (max-width:1200px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        @media (max-width:800px){
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+
+
+
+}
+
+    
+
+
+
+
+
+
+
+

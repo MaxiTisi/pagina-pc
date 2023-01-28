@@ -1,0 +1,87 @@
+
+.section_slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    border: solid 2px black;
+    background-color: $color_fondo;
+    padding: 15px;
+
+    .div_slider {
+        width: 70%;
+        height: $imgHeigth;
+        width: 80%;
+        
+        
+
+        img {
+            height: $imgHeigth;
+        }
+    }
+
+    
+
+    
+}
+
+.div_titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mas_vendido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: $color_fondo;
+    margin: 15px 0px;
+    
+    
+    .div_mas {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        
+
+        img {
+            height:$heiproductos;
+            
+        }
+
+        p, h2{
+            font-family: $fuente;
+            font-weight: bold;
+            letter-spacing: 5px;
+            
+        }
+
+        p{
+            color: $color_p;
+        }
+
+        h2{
+            color: $color_h2;
+        }
+
+        
+    
+
+    }
+
+    @media (max-width:1200px){
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    @media (max-width:800px){
+        display: flex;
+        flex-direction: column;
+
+    }
+}
